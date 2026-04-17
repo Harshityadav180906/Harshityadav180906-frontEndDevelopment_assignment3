@@ -1,0 +1,63 @@
+/* Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fb;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+div {
+  padding: 20px;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Section title */
+h2 {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Course Cards */
+.course1, .course2 {
+  background-color: white;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.course1:hover, .course2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Course title */
+.course1 h4, .course2 h4 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+/* Text */
+.course1 p, .course2 p {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* Different color for DSA */
+.course2 {
+  border-left: 5px solid #4CAF50;
+}
+
+/* Default course color */
+.course1 {
+  border-left: 5px solid #2196F3;
+}

@@ -1,0 +1,104 @@
+/* Page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f8fafc;
+}
+
+/* Main container */
+.main.full {
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* Title */
+.main h2 {
+  font-size: 24px;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+/* Search box */
+.search {
+  width: 300px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  margin-bottom: 25px;
+  transition: 0.2s;
+}
+
+.search:focus {
+  border-color: #2563eb;
+}
+
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  position: relative;
+  transition: 0.25s;
+}
+
+/* Hover */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+/* Title */
+.card h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #111827;
+}
+
+/* Info text */
+.card p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* Date */
+.date {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+/* Status badge */
+.status {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  width: fit-content;
+  height: auto;
+  border: 2px solid #e5e7eb;
+  background-color: #e4e6eb;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .search {
+    width: 100%;
+  }
+}
